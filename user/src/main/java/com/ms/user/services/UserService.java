@@ -12,6 +12,7 @@ public class UserService {
 
     @Autowired
     UserRepository userRepository;
+    @Autowired
     UserProducer userProducer;
 
     @Transactional
